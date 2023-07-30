@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/header"
+        android:textColor="#068FB1"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edIdIn"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="#E1ECEF"
+        android:ems="10"
+        android:hint="@string/id_passenger"
+        android:paddingStart="14sp"
+        android:textColor="#068FB1"
+        android:textColorHint="#87A3AA"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/edDeparturePointIn"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="#E1ECEF"
+        android:ems="10"
+        android:hint="@string/departure_point"
+        android:paddingStart="14sp"
+        android:textColor="#068FB1"
+        android:textColorHint="#87A3AA"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/edIdIn" />
+
+    <EditText
+        android:id="@+id/edDepartureDateIn"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="#E1ECEF"
+        android:ems="10"
+        android:hint="@string/departure_date"
+        android:paddingStart="14sp"
+        android:textColor="#068FB1"
+        android:textColorHint="#87A3AA"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/edDeparturePointIn" />
+
+    <EditText
+        android:id="@+id/edArrivalPointIn"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="#E1ECEF"
+        android:ems="10"
+        android:hint="@string/arrival_point"
+        android:paddingStart="14sp"
+        android:textColor="#068FB1"
+        android:textColorHint="#87A3AA"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/edDepartureDateIn" />
+
+    <EditText
+        android:id="@+id/edArrivalDateIn"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="#E1ECEF"
+        android:ems="10"
+        android:hint="@string/arrival_date_in"
+        android:paddingStart="14sp"
+        android:textColor="#068FB1"
+        android:textColorHint="#87A3AA"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/edArrivalPointIn" />
+
+
+    <TextView
+        android:id="@+id/coastTicketIn"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="#7AEADDF8"
+        android:gravity="center_vertical"
+        android:paddingStart="14sp"
+        android:hint="@string/coast"
+        android:textColor="#068FB1"
+        android:textColorHint="#87A3AA"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edArrivalDateIn" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#068FB1"
+        android:text="@string/issue_a_ticket"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/coastTicketIn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

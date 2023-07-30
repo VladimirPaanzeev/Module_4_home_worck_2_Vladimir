@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Module_4_home_worck_2_Vladimir</string>
+    <string name="header">Заполнение железнодорожного билета</string>
+    <string name="id_passenger">Id пасажира</string>
+    <string name="departure_point">Место отправления</string>
+    <string name="departure_date">Время отправления</string>
+    <string name="arrival_point">Место прибытия</string>
+    <string name="arrival_date">Время отправления</string>
+    <string name="coast">Стоимость</string>
+    <string name="arrival_date_in">Время прибытия</string>
+    <string name="issue_a_ticket">ОФОРМИТЬ БИЛЕТ</string>
+    <string name="set_info_ticket">Информация об оформленном билете</string>
+    <string name="fix_ticket">Исправить билет</string>
+    <string name="new_ticket">Оформить новый билет</string>
+</resources>
